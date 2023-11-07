@@ -1,0 +1,285 @@
+.center{
+    position: absolute;
+    left:5cm ;top: 3cm;
+    
+    margin: auto;
+    width: 30cm;
+    height: 15cm;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 32px rgb(237, 235, 235);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.micbox {
+
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    left: 21.5cm;top: 12.83cm;border: 3px #ece4e4;
+}
+
+.mic {
+    color: white;
+    padding: 11px 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: rgb(78, 131, 223);
+    transition: all 0.2s; /* Add a smooth transition effect for style changes */
+    transform-origin: center;
+    cursor: pointer;
+}
+.mic:hover{
+    border: 1px solid black;
+}
+
+
+.micbox.active .mic {
+    filter: brightness(0.7); /* Adjust brightness when clicked */
+    /* Add other style changes as needed */
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.386);
+}
+
+.uppar-text-box{
+    position: absolute;
+    top: 2.6cm;
+    left: 2.5cm;
+    width:25.1cm;
+    height: 1.4cm;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+textarea {
+    position:absolute;
+    top: 4cm;left: 2.5cm;
+    width:24.6cm;
+    height: 8cm;
+    padding: 10px;
+    border-radius: 0.2cm;
+    background-color: white;
+    opacity: 80%;
+    color: black;
+    box-shadow: 0 5px px 5px rgba(1, 1, 1, 0.37);
+    font-size: 16px;
+}
+h1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 1cm;left: 6.5cm;
+    margin:auto;
+    text-shadow: 1px 0.3px #ece4e4;
+}
+#Buttons{
+    position: absolute;
+}
+input {
+    position: absolute;
+    left: 25.2cm;
+    top: 1.28cm;
+    color: transparent;
+}
+.file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.file::before {
+    content: "Select";
+    color: white;
+    display: inline-block;
+    background: rgb(78, 131, 223);
+    border: 1px solid rgb(78, 131, 223);
+    border-radius: 20px;
+    padding: 8px 25px;
+    outline: none;
+    white-space:nowrap;
+    user-select: none;
+    -webkit-user-select: auto;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .file:hover::before {
+    border-color: rgb(15, 14, 14);
+  }
+  .file:active::before {
+    background: rgba(255, 255, 255, 0.25);;
+  }
+
+#sel{
+    position: absolute;
+    top: 2.956cm;
+    left: 2.8cm;
+    color: white;
+    display: inline-block;
+    background: rgb(151, 153, 157);
+    border-radius: 5px;
+    padding: 5px 5px;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+body{ 
+    background: linear-gradient(180deg,#f7f7f7 6.77%,#fdfdfd 100%);
+}
+.play {
+    position: absolute;
+    top: 0.3cm;
+    color: white;
+    left:2.5cm;
+    display: inline-block;
+    background: rgb(78, 131, 223);
+    border: 1px solid rgb(78, 131, 223);
+    border-radius: 20px;
+    padding: 8px 25px;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.play:hover {
+    border: 1px solid black;
+}
+
+.play:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+.speed {
+    position: absolute;
+    color: white;
+    top: 1.9cm;
+    left:23.2cm;
+    display: inline-block;
+    background: rgb(151, 153, 157);
+    border: 1px solid ;
+    border-radius: 20px;
+    padding: 8px 20px;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.speed:hover {
+    border: 1px solid black;
+}
+
+.speed:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+.stop {
+    position: absolute;
+    color: white;
+    top: 1.9cm;
+    left:20.8cm;
+    display: inline-block;
+    background: rgb(151, 153, 157);
+    border: 1px solid ;
+    border-radius: 20px;
+    padding: 8px 25px;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.stop:hover {
+    border: 1px solid black;
+}
+.stop:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+.for_speed {
+    position: absolute;
+    color: white;
+    top: 1.9cm;
+    left:25.6cm;
+    display: inline-block;
+    background: rgb(151, 153, 157);
+    border-radius: 20px;
+    padding: 7px 10px;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.for_speed:hover {
+    border: 1px solid black;
+}
+.for_speed:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+#copyButton{
+    position: absolute;
+    left: 17.2cm;
+    top: 11px;
+    font-size: 20px;
+    color: rgb(151, 153, 157);
+    cursor: pointer;
+    font-weight: 700;
+    background-color: transparent;
+    /* Change the button color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none; /* Remove the blue outline */
+}
+#fname{
+    position: absolute;
+    top: 15.8cm;
+    left: 7.5cm;
+    padding: 14px;
+    width: 18cm;
+    color: black;
+    border: 1px solid;
+    border-radius: 25px;
+}
+.send-button{
+    position: absolute;
+    left: 25.1cm;
+    top: 15.87cm;
+    padding: 11px 13px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: rgb(78, 131, 223);
+    color: #ece4e4;
+}
+.send-button:hover {
+    border: 1px solid black;
+}
+.send-button:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+#clear-text{
+    border: 1px solid rgb(78, 131, 223);
+    position: absolute;
+    border-radius: 25px;
+    left: 24.6cm;
+    top: 12.9cm;
+    padding: 8px 24px;
+    font-weight: 700;
+    color: white;
+    background: rgb(78, 131, 223);
+}
+#clear-text:hover{
+    border: 1px solid black;
+}
+.lang-logo{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 5cm;
+    top: 0.9cm;
+}
+
+
