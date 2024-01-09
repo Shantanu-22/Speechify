@@ -1,4 +1,4 @@
-const apiKey = "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";
+const apiKey = "";
 const apiEndpoint = "https://api.openai.com/v1/engines/davinci/completions";
 const maxTokens = 100;
 
